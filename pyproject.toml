@@ -14,4 +14,4 @@ authors = [ "Bogdan Burlacu <bogdan.burlacu@pm.me>" ]
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/heal-research/pyoperon/issues"
 [tool.setuptools]
-py_modules = ["pyoperon]
+py_modules = ["pyoperon"]
