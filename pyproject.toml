@@ -1,4 +1,4 @@
-[project]
+[tool.poetry]
 build = "build.py"
 name = "pyoperon"
 version = "0.3.4"
@@ -8,8 +8,10 @@ repository = "https://github.com/heal-research/pyoperon"
 homepage = "https://github.com/heal-research/pyoperon"
 license = "MIT"
 authors = [ "Bogdan Burlacu <bogdan.burlacu@pm.me>" ]
+
 [tool.setuptools]
-py_modules = []
+py_modules = ["pyoperon"]
+name = "pyoperon"
 
 [tool.poetry.dependencies]
 
