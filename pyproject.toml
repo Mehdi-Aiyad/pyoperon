@@ -8,10 +8,10 @@ repository = "https://github.com/heal-research/pyoperon"
 homepage = "https://github.com/heal-research/pyoperon"
 license = "MIT"
 authors = [ "Bogdan Burlacu <bogdan.burlacu@pm.me>" ]
+py_modules = ["pyoperon"]
 
 [tool.poetry.dependencies]
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/heal-research/pyoperon/issues"
 [tool.setuptools]
-py_modules = ["pyoperon"]
