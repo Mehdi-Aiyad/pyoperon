@@ -1,7 +1,6 @@
 [build-system]
 # Minimum requirements for the build system to execute.
 requires = ["poetry", "wheel"]  # PEP 508 specifications.
-build-backend = "setuptools.build_meta"
 
 # Ignore flat-layout.
 [tool.setuptools]
