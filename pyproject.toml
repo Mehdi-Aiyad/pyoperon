@@ -4,7 +4,7 @@ requires = ["poetry", "setuptools", "wheel"]  # PEP 508 specifications.
 
 # Ignore flat-layout.
 [tool.setuptools]
-py-modules = []
+py_modules = ["pyoperon"]
 
 [tool.poetry]
 build = "build.py"
