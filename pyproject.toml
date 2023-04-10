@@ -1,10 +1,11 @@
 [build-system]
 # Minimum requirements for the build system to execute.
 requires = ["poetry", "setuptools", "wheel"]  # PEP 508 specifications.
-
+build-backend = "setuptools.build_meta"
 # Ignore flat-layout.
+
 [tool.setuptools]
-py_modules = ["pyoperon"]
+py_modules = []
 
 [tool.poetry]
 build = "build.py"
