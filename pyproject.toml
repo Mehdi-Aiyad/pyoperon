@@ -9,7 +9,7 @@ homepage = "https://github.com/heal-research/pyoperon"
 license = "MIT"
 authors = [ "Bogdan Burlacu <bogdan.burlacu@pm.me>" ]
 [tool.setuptools]
-py_modules = ["pyoperon"]
+py_modules = []
 
 [tool.poetry.dependencies]
 
