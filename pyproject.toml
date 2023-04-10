@@ -4,6 +4,9 @@ requires = ["setuptools", "wheel"]  # PEP 508 specifications.
 build-backend = "setuptools.build_meta"
 # Ignore flat-layout.
 
+[tool.setuptools]
+packages = []
+
 [project]
 name = "pyoperon"
 version = "0.3.4"
